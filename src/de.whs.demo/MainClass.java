@@ -7,7 +7,10 @@ package de.whs.demo;
 public class MainClass {
 
     public static void main(String[] args) {
-        System.out.println("Tolle Klasse");
-    }
 
+        Rechner rechner = new Rechner();
+
+        System.out.println("3 + 4 =" + rechner.addieren(3,4));
+        System.out.println("4 - 1 =" + rechner.subtrahieren(4,1));
+    }
 }
